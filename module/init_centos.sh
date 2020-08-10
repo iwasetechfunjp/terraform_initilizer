@@ -22,4 +22,4 @@ function install_terraform(){
 echo " # $0 - Main"
 echo " # --------------------------------------------------"
 install_commands
-init_centos
+install_terraform
