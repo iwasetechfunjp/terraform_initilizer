@@ -8,7 +8,7 @@ function install_commands(){
     groff
 }
 
-function init_centos(){
+function install_terraform(){
   echo " Install yum-config-manager to manage your repositories."
   yum install -y yum-utils
 
@@ -19,7 +19,7 @@ function init_centos(){
   yum install -y  terraform
 }
 
-echo " $0 - Main"
+echo " # $0 - Main"
 echo " # --------------------------------------------------"
 install_commands
 init_centos
